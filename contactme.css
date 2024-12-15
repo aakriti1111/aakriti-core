@@ -1,0 +1,34 @@
+html {
+    font-size: 22px;
+}
+body
+{
+    background-image:  url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-color: rgb(255, 232, 242); /* this is just css file, to style the page we are working on, this is how we choose background colour*/
+    color: rgb(0, 26, 27); /*colour of the text in the website*/
+    
+}
+/*let's change the colours of libnks through anchor*/
+a {
+    color: rgb(126, 3, 111);
+}
+
+a:visited {
+    color: darkorchid;
+}
+a:hover, a:active {
+    color: hotpink;
+}
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 77px;
+    line-height:1.3;
+}
+h2
+{
+    line-height:1.8em;
+
+}

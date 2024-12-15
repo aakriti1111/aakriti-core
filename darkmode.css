@@ -1,0 +1,65 @@
+html {
+    font-size: 22px;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.6;
+    text-align: centre;
+    background-image:  url('darkmodebg.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0); /* this is just css file, to style the page we are working on, this is how we choose background colour*/
+    color: rgb(187, 160, 160); /*colour of the text in the website*/
+    
+}
+/*let's change the colours of libnks through anchor*/
+a {
+    color: rgb(107, 11, 11);
+}
+
+a:visited {
+    color: rgb(5, 119, 64);
+}
+a:hover, a:active {
+    color: rgb(83, 51, 179);
+}
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 77px;
+    line-height:1.3;
+}
+h2
+{
+    line-height:1.8em;
+
+}
+button {
+    background-color: rgba(116, 65, 91, 0.834);
+    color:aliceblue;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+ul {
+    text-align: left;
+    list-style-type:none;
+}
+ul li {
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+img {
+    vertical-align: middle;
+}
